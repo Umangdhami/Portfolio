@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restorent</title>
+
+    <!--Font_Family-->
+    <link rel="stylesheet" href="css/font.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!--Flat_Icon-->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!--Bootstrap_Css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--Custom_Css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="py-3 position-absolute w-100 top-0 start-0 z-9">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-4">
+                    <div class="logo-box">
+                        <img src="images/logo3.png" alt="" class="col-3">
+                    </div>
+                </div>
+                <div class="col">
+                    <nav>
+                        <ul class="nav justify-content-end">
+                            <li class="list-item">
+                                <a href="#" class="nav-link active">Home</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="nav-link">Page</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="menu.html" class="nav-link">Menu</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="nav-link">About Us</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="nav-link">Contact</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="nav-link">Gallery</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="nav-link">Blog</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" class="nav-link">Reservations</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="banner vh-100 w-100 position-relative">
+            <div class="overlay"></div>
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-6 text-center">
+                        <h1 class="display-3 text-warning">
+                            Flavors Inspired by
+                            the Seasons
+                        </h1>
+                        <p class="text-white">Come with family & feel the joy of mouthwatering food</p>
+
+                        <button class="btn bg-warning px-4 py-2 mt-2">
+                            <a href="#" class="text-white fs-7">View More</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="welcome py-120 text-white">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-5">
+                        <div class="w-100">
+                            <div class="w-75 position-relative"
+                                style="height: 600px; border: 1px solid #fff !important;">
+                                <div class="w-100 welcome-img overflow-hidden position-absolute">
+                                    <img src="images/welcome.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 d-flex align-items-center" style="height: 580px">
+                        <div class="col-12">
+                            <h2 class="text-warning fs-1 mb-0" style="font-family: 'Segoe Print';">welcome</h2>
+                            <span class="title-se fs-3" style="font-family: 'Roboto', sans-serif;">To Our Restaurant</span>
+                            <p class="mt-4">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+                                sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec,
+                                vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+                            </p>
+                            <p class="fs-5 mt-5">Prutha Vastarpara Owner</p>
+                            <div class="col">
+                                <button class="btn bg-warning px-4 py-2 mt-2">
+                                    <a href="#" class="text-white">Read More</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="dishes pb-240" style="font-family: 'Roboto', sans-serif;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center text-white mb-4">
+                        <h2>Special Dishes</h2>
+                    </div>
+                    <div class="col-12">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs w-100 justify-content-center" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                                    data-bs-target="#home" type="button" role="tab" aria-controls="home"
+                                    aria-selected="true">Home</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                                    type="button" role="tab" aria-controls="profile"
+                                    aria-selected="false">Profile</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="messages-tab" data-bs-toggle="tab"
+                                    data-bs-target="#messages" type="button" role="tab" aria-controls="messages"
+                                    aria-selected="false">Messages</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="settings-tab" data-bs-toggle="tab"
+                                    data-bs-target="#settings" type="button" role="tab" aria-controls="settings"
+                                    aria-selected="false">Settings</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="other-tab" data-bs-toggle="tab" data-bs-target="#other"
+                                    type="button" role="tab" aria-controls="other" aria-selected="false">other</button>
+                            </li>
+                        </ul>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab"
+                                tabindex="0">
+
+                                <div class="col-12 d-flex flex-wrap mt-5 pt-3">
+                                    <div class="col-4 px-2">
+                                        <div class="col-12 img-to-rounded overflow-hidden">
+                                            <img src="images/dish-1.jpg" class="h-100 object-fit-cover">
+                                        </div>
+                                        <div class="col-12 text-center py-3" style="background-color: #272726;">
+                                            <p class="m-0 text-white">Red Saustte Kaju Kari With Pneer and Cream</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 px-2">
+                                        <div class="col-12 img-to-rounded overflow-hidden">
+                                            <img src="images/dish-2.jpg" class="h-100 object-fit-cover">
+                                        </div>
+                                        <div class="col-12 text-center py-3" style="background-color: #272726;">
+                                            <p class="m-0 text-white">Red Saustte Kaju Kari With Pneer and Cream</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 px-2">
+                                        <div class="col-12 img-to-rounded overflow-hidden">
+                                            <img src="images/dish-3.jpg" class="h-100 object-fit-cover">
+                                        </div>
+                                        <div class="col-12 text-center py-3" style="background-color: #272726;">
+                                            <p class="m-0 text-white">Red Saustte Kaju Kari With Pneer and Cream</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab"
+                                tabindex="0">2</div>
+                            <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab"
+                                tabindex="0">3</div>
+                            <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab"
+                                tabindex="0">4</div>
+                            <div class="tab-pane" id="other" role="tabpanel" aria-labelledby="other-tab" tabindex="0">
+                                5</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu py-120 text-white">
+            <div class="container position-relative">
+                <div class="row ">
+                    <div class="col-6">
+                        <div class="col-12 title-box text-center">
+                            <h2 class="text-white"> <span class="text-warning" style="font-family: 'Segoe Print';">Discover</span> Our Menu</h2>
+                        </div>
+                        <p class="fs-7 text-center my-4">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                            ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
+                            consequat massa quis enim.
+                        </p>
+                        <div class="col-12 text-center">
+                            <button class="btn bg-warning px-4 py-2 mt-2">
+                                <a href="#" class="text-white fs-7">View The Full Menu</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-6 ps-3 maim-menu">
+                        <div class="col-12 position-relative menu-items">
+                            <div class="col-12 d-flex ms-5">
+                                <div class="col-6 menu-top overflow-hidden top-right-120 bottom-left-120">
+                                    <img src="images/menu-1.jpg" alt="">
+                                </div>
+                                <div class="col-6 menu-top overflow-hidden top-left-120 bottom-right-120 menu-top-2">
+                                    <img src="images/menu-2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex">
+                                <div
+                                    class="col-6 menu-bottom overflow-hidden top-left-120 bottom-right-120 menu-bootom-1">
+                                    <img src="images/menu-3.jpg" alt="">
+                                </div>
+                                <div class="col-6 menu-bottom overflow-hidden top-right-120 bottom-left-120">
+                                    <img src="images/menu-4.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="special py-120 pt-360 text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 title-box text-center mb-5">
+                        <h2 class="text-white"> <span class="text-warning" style="font-family: 'Segoe Print';">Chef </span> Special Dishes</h2>
+                    </div>
+                    <div class="col-12 d-flex">
+                        <div class="col-6 d-flex flex-column justify-content-center pe-4">
+                            <div class="col-12 d-flex align-items-center">
+                                <div class="profile-box overflow-hidden rounded-circle"
+                                    style="width: 50px; height: 50px;">
+                                    <img src="images/user.jpg" class="h-100 object-fit-cover" alt="">
+                                </div>
+                                <span class="text-warning ps-3 fs-5">
+                                    Olivia
+                                </span>
+                            </div>
+                            <p class="mt-5 fs-6">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula Lorem
+                                ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                                Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                                ridiculus mus.
+
+                            </p>
+                            <div class="col-12 text-start">
+                                <button class="btn bg-warning px-4 py-2 mt-3">
+                                    <a href="#" class="text-white fs-7">View The Full Menu</a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-6 special-img-1 overflow-hidden top-left bottom-right">
+                            <img src="images/special-1.jpg" class="h-100" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 d-flex">
+                        <div class="col-6 special-img-1 overflow-hidden top-left bottom-right">
+                            <img src="images/special-2.jpg" class="h-100" alt="">
+                        </div>
+                        <div class="col-6 d-flex flex-column justify-content-center ps-4">
+                            <div class="col-12 d-flex align-items-center">
+                                <div class="profile-box overflow-hidden rounded-circle"
+                                    style="width: 50px; height: 50px;">
+                                    <img src="images/user.jpg" class="h-100 object-fit-cover" alt="">
+                                </div>
+                                <span class="text-warning ps-3 fs-5">
+                                    Olivia
+                                </span>
+                            </div>
+                            <p class="mt-5 fs-6">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula Lorem
+                                ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                                Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                                ridiculus mus.
+
+                            </p>
+                            <div class="col-12 text-start">
+                                <button class="btn bg-warning px-4 py-2 mt-3">
+                                    <a href="#" class="text-white fs-7">View The Full Menu</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <button class="btn bg-warning px-4 py-2 mt-3">
+                            <a href="#" class="text-white fs-7">View More</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="video position-relative">
+            <div class="overlay"></div>
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col-12 d-flex align-items-center justify-content-center">
+                        <div class="video-box d-flex align-items-center justify-content-center">
+                            <div class="video-btn text-white d-flex align-items-center justify-content-center">
+                                <i class="fa-solid fa-play fs-7"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="chef py-120 text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <h2>
+                            Meet Our Chef
+                        </h2>
+                    </div>
+                    <div class="col-12 d-flex">
+                        <div class="col-3 px-2">
+                            <div class="chef-img w-100">
+                                <img src="images/men-1.png" alt="">
+                            </div>
+                            <div class="col-12 py-2 text-center">
+                                <p>Chef Drashti Limbani</p>
+                            </div>
+                        </div>
+                        <div class="col-3 px-2">
+                            <div class="chef-img w-100">
+                                <img src="images/men-2.png" alt="">
+                            </div>
+                            <div class="col-12 py-2 text-center">
+                                <p>Chef Drashti Limbani</p>
+                            </div>
+                        </div>
+                        <div class="col-3 px-2">
+                            <div class="chef-img w-100">
+                                <img src="images/men-3.png" alt="">
+                            </div>
+                            <div class="col-12 py-2 text-center">
+                                <p>Chef Drashti Limbani</p>
+                            </div>
+                        </div>
+                        <div class="col-3 px-2">
+                            <div class="chef-img w-100">
+                                <img src="images/men-4.png" alt="">
+                            </div>
+                            <div class="col-12 py-2 text-center">
+                                <p>Chef Drashti Limbani</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="strength text-white pb-120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-4">
+                        <h2>Our Strength</h2>
+                    </div>
+                    <div class="col-12 d-flex flex-wrap">
+                        <div class="col-3 px-2">
+                            <div class="col-12 p-2 py-4 d-flex flex-column align-items-center bg-info">
+                                <div class="strength-img w-25">
+                                    <img src="images/stren-1.png" alt="">
+                                </div>
+                                <div class="strength-content col-12 text-center mt-4">
+                                    <h5>Hygienic Food</h5>
+                                    <p class="mt-2 fs-7">Lorem ipsum dolor sit amet, consectetuer
+                                        adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 px-2">
+                            <div class="col-12 p-2 py-4 d-flex flex-column align-items-center bg-info">
+                                <div class="strength-img w-25">
+                                    <img src="images/stren-1.png" alt="">
+                                </div>
+                                <div class="strength-content col-12 text-center mt-4">
+                                    <h5>Hygienic Food</h5>
+                                    <p class="mt-2 fs-7">Lorem ipsum dolor sit amet, consectetuer
+                                        adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 px-2">
+                            <div class="col-12 p-2 py-4 d-flex flex-column align-items-center bg-info">
+                                <div class="strength-img w-25">
+                                    <img src="images/stren-1.png" alt="">
+                                </div>
+                                <div class="strength-content col-12 text-center mt-4">
+                                    <h5>Hygienic Food</h5>
+                                    <p class="mt-2 fs-7">Lorem ipsum dolor sit amet, consectetuer
+                                        adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 px-2">
+                            <div class="col-12 p-2 py-4 d-flex flex-column align-items-center bg-info">
+                                <div class="strength-img w-25">
+                                    <img src="images/stren-1.png" alt="">
+                                </div>
+                                <div class="strength-content col-12 text-center mt-4">
+                                    <h5>Hygienic Food</h5>
+                                    <p class="mt-2 fs-7">Lorem ipsum dolor sit amet, consectetuer
+                                        adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery pb-120 text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-4">
+                        <h2>Our Gallery</h2>
+                    </div>
+                    <div class="col-12 gallery-wrapper">
+                        <div class="gallery-img">
+                            <img src="images/gall-1.jpg" alt="">
+                        </div>
+                        <div class="gallery-img">
+                            <img src="images/gall-2.jpg" alt="">
+                        </div>
+                        <div class="gallery-img">
+                            <img src="images/gall-3.jpg" alt="">
+                        </div>
+                        <div class="gallery-img">
+                            <img src="images/gall-4.jpg" alt="">
+                        </div>
+                        <div class="gallery-img">
+                            <img src="images/gall-5.jpg" alt="">
+                        </div>
+                        <div class="gallery-img">
+                            <img src="images/gall-6.jpg" alt="">
+                        </div>
+                        <div class="gallery-img">
+                            <img src="images/gall-7.jpg" alt="">
+                        </div>
+                        <div class="gallery-img">
+                            <img src="images/gall-8.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about py-120 position-relative text-white">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <span class="d-block mb-3 text-warning">
+                            --- TESTIMONIALS ---
+                        </span>
+                        <h2>
+                            "What Our Clients say"
+                        </h2>
+                        <div class="col-10 mx-auto my-4">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+                                sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec,
+                                vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+                            </p>
+                        </div>
+                        <h5 class="mb-0">Marie Smith</h5>
+                        <span class="fs-7">Food Blogger</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact py-120 text-white">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-10 d-flex justify-content-between p-0">
+                        <div class="col-8 pe-2">
+                            <div class="col-12 h-100 py-4" style="background-color: rgba(0, 0, 0, 0.5);">
+                                <div class="col-12 text-center">
+                                    <h2>Online Reservation</h2>
+                                    <p>Booking request <span>+ 88-123-123456</span> Or Fill Out The Order Form</p>
+                                </div>
+                                <div class="col-12 mt-5 d-flex">
+                                    <div class="col-6 px-3">
+                                        <input type="text" placeholder="Your Name" class="col-12 p-2 bg-transparent border-footer">
+                                    </div>
+                                    <div class="col-6 px-3">
+                                        <input type="text" placeholder="Phone Number" class="col-12 p-2 bg-transparent border-footer">
+                                    </div>
+                                </div>
+                                <div class="col-12 mt-4 d-flex">
+                                    <div class="col-4 px-2 ps-3">
+                                        <div class="col-12 p-3 d-flex border" style="border: 2px solid #282828 !important;">
+                                            <div class="col-1">
+                                                <i class="fa-regular fa-user"></i>
+                                            </div>
+                                            <select class="col-11 ps-1 bg-transparent border-0 text-white outline-none">
+                                                <option>1 Person</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 px-2 ">
+                                        <div class="col-12 p-3 d-flex border" style="border: 2px solid #282828 !important;">
+                                            <div class="col-1">
+                                                <i class="fa-regular fa-user"></i>
+                                            </div>
+                                            <select class="col-11 ps-1 bg-transparent border-0 text-white outline-none">
+                                                <option>1 Person</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 px-2 pe-3">
+                                        <div class="col-12 p-3 d-flex border" style="border: 2px solid #282828 !important;">
+                                            <div class="col-1">
+                                                <i class="fa-regular fa-user"></i>
+                                            </div>
+                                            <select class="col-11 ps-1 bg-transparent border-0 text-white outline-none">
+                                                <option>1 Person</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="col-12 mt-4 px-3">
+                                    <textarea rows="5" class="">   Message </textarea>
+                                </div>
+    
+                                <div class="col-12 mt-3 px-3">
+                                    <button class="btn px-4 py-2 mt-2 w-100" style="background-color: #dfa622;">
+                                        <a href="#" class="text-white fs-7">BOOK A TABLE</a>
+                                    </button>
+                                </div>
+    
+    
+                            </div>
+                        </div>
+                        <div class="col-4 ps-2">
+                            <div class="col-12 p-5" style="background-color: rgba(0, 0, 0, 0.5);">
+                                <div class="col-12 text-center">
+                                    <h2 class="mb-2">Contact Us</h2>
+                                    <span>Booking request</span>
+                                    <h3 class="text-warning">+ 88-123-123456</h3>
+                                    <div class="col-12 text-center text-warning mt-3">
+                                        <i class="fs-7 fa-sharp fa-regular fa-circle"></i>
+                                    </div>
+    
+                                    <div class="col-12 d-flex flex-column row-gap-1 mt-3">
+                                        <div class="col-12 text-center">
+                                            <span>Location</span>
+                                            <p class="mt-2">Restaurant st, Delicious City, London 9575,uk</p>
+                                        </div>
+                                        <div class="col-12 text-center">
+                                            <span>Location</span>
+                                            <p class="mt-2">Restaurant st, Delicious City, London 9575,uk</p>
+                                        </div>
+                                        <div class="col-12 text-center">
+                                            <span>Location</span>
+                                            <p class="mt-2">Restaurant st, Delicious City, London 9575,uk</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-120">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="logo-footer col-4 mb-3">
+                        <img src="images/logo3.png" alt="logo">
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                    </p>
+                </div>
+                <div class="col-3 d-flex justify-content-center">
+                    <div class="w-auto">
+                        <div class="col-12 mb-3">
+                            <h5>ADDRESS</h5>
+                        </div>
+                        <ul class="d-flex flex-column row-gap-3">
+                            <li>
+                                <p class="m-0">58, Ralph ave</p>
+                                <p class="m-0">New York, New York 1111</p>
+                            </li>
+                            <li>
+                                P: +1800 000 111
+                            </li>
+                            <li>
+                                E: contact@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3 d-flex justify-content-center">
+                    <div class="w-auto">
+                        <div class="col-12 mb-3">
+                            <h5>OPEN HOURS</h5>
+                        </div>
+                        <ul class="d-flex flex-column row-gap-3">
+                            <li>
+                                <p class="m-0">Monday-Sunday</p>
+                            </li>
+                            <li>
+                                Lunch: 12PM - 2PM
+                            </li>
+                            <li>
+                               Dinner:6pm - 6pm
+                            </li>
+                            <li>
+                                HappyHOur: 4pm - 6pm
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3 d-flex justify-content-center">
+                    <div class="w-auto">
+                        <div class="col-12 mb-3">
+                            <h5>MORE INFO</h5>
+                        </div>
+                        <ul class="d-flex flex-column row-gap-3">
+                            <li>
+                                <p class="m-0">Careers</p>
+                            </li>
+                            <li>
+                                Get in Touch
+                            </li>
+                            <li>
+                                Privacy Policy
+                            </li>
+                        </ul>
+                        <div class="col-12 d-flex column-gap-2 mt-5">
+                            <div class="icon-box d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-facebook-f fs-6"></i>
+                            </div>
+                            <div class="icon-box d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-instagram fs-6"></i>
+                            </div>
+                            <div class="icon-box d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-pinterest-p fs-6"></i>
+                            </div>
+                            <div class="icon-box d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-twitter fs-6"></i>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

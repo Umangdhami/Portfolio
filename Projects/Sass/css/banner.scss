@@ -1,0 +1,32 @@
+.banner{
+    background-image: url(../images/first-screen.png);
+    background-size: cover;
+    padding: 60px 0;
+    .row{
+        .banner-content{
+            h2{
+                font-family: $rock-font;
+                color: $hover;
+                font-size: 70px;
+            }
+            h1{
+                font-size: 70px;
+                text-transform: uppercase;
+                line-height: 1.2;
+            }
+            span{
+                color: $tag;
+            }
+            .btn{
+                button{
+                    padding: 15px 50px;
+                    font-size: 14px;
+                    background-color: $hover;
+                    color: $white;
+                    border: none;
+                }
+            }
+           row-gap: 20px;
+        }
+    }
+}

@@ -1,0 +1,348 @@
+:root{
+    --bs-font-sans-serif: 'Roboto', sans-serif;
+    /* --bs-font-sans-serif: 'Concept'; */
+    --bs-body-bg: #212121;
+    --bs-link-color: #fff;
+    --bs-border-width: 0;
+    /* style="font-family: 'Segoe Print';" */
+    --bs-link-hover-color: #dfa622 !important;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 20px;
+}
+
+button,p,a{
+    font-family: 'Roboto', sans-serif !important;
+}
+.active{
+    color: #dfa622;
+}
+
+.z-9{
+    z-index: 999;
+}
+
+img{
+    width: 100%;
+}
+
+.top-left-120{
+    border-top-left-radius: 100px;
+}
+
+.top-right-120{
+    border-top-right-radius: 100px;
+}
+
+.bottom-left-120{
+    border-bottom-left-radius: 100px;
+}
+
+.bottom-right-120{
+    border-bottom-right-radius: 100px;
+}
+
+.top-left-160{
+    border-top-left-radius: 160px;
+}
+
+.top-right-160{
+    border-top-right-radius: 160px;
+}
+
+.bottom-left-160{
+    border-bottom-left-radius: 160px;
+}
+
+.bottom-right-160{
+    border-bottom-right-radius: 160px;
+}
+
+
+.top-left{
+    border-top-left-radius: 40%;
+}
+
+.top-right{
+    border-top-right-radius: 40%;
+}
+
+.bottom-left{
+    border-bottom-left-radius: 40%;
+}
+
+.bottom-right{
+    border-bottom-right-radius: 40%;
+}
+
+.banner{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    z-index: 1;
+}
+
+.banner h1{
+    font-weight: 400;
+}
+.py-120{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.pt-240{
+    padding-top: 240px;
+}
+
+.pt-360{
+    padding-top: 360px;
+}
+.pb-240{
+    padding-bottom: 240px;
+}
+
+.pb-120{
+    padding-bottom: 120px;
+}
+a{
+    text-decoration: none;
+}
+
+.fs-7{
+    font-size: 14px;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 100%;
+}
+
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.welcome-img{
+    /* overflow: hidden; */
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    left: 50px;
+    top: -50px;
+    width: 100%;
+}
+
+.dishes{
+    --bs-link-hover-color: #fff;
+    --bs-emphasis-color: #fff;
+    --bs-border-color: #dfa622;
+    --bs-secondary-bg: #dfa622;
+}
+
+.dishes .nav-link{
+    margin: 0 10px;
+    border: 1px solid #dfa622;
+    border-radius: 5px;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+
+}
+
+.dishes .nav-link.active{
+    background-color: #dfa622 !important;
+    border-radius: 5px;
+    
+}
+
+.img-to-rounded{
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.dishes .img-to-rounded{
+    height: 475px;
+}
+
+.object-fit-cover{
+    object-fit: cover;
+}
+
+.menu{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu-items{
+    margin-top: -280px;
+}
+
+.menu-top{
+    width: 350px;
+    height: 430px;
+}
+
+.menu-bottom{
+    width: 470px;
+    height: 290px;
+}
+
+.menu-bootom-1{
+    margin-left: -71.5px;
+    margin-top: -90px;
+}
+
+.menu-top-2{
+    margin-top: 90px;
+}
+
+.maim-menu{
+    position: absolute;
+    width: 50%;
+    right: 0;
+    top: 0;
+}
+
+/* special */
+
+.special-img-1{
+    height: 470px;
+}
+
+
+/* video */
+
+.video{
+    height: 500px;
+    background-image: url(../images/video.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.video .overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.video .video-box{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, .5);
+    box-shadow: 0 0 2px 8px rgba(255, 255, 255, .3);
+}
+
+.video .video-box .video-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.chef .chef-img{
+    height: 342px;
+}
+
+.bg-info{
+    --bs-info-rgb: 45, 45, 45;
+}
+
+.gallery .gallery-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 326px);
+    gap: 10px;
+}
+
+.about{
+    height: 600px;
+    z-index: 1;
+    background-image: url('../images/about-bg.png');
+    background-size: cover;
+}
+
+.about .overlay{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+.contact textarea{
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding-top: 10px;
+    border: 2px solid #282828 !important;
+    outline: none;
+}
+
+footer{
+    color: #71706d;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer h5{
+    color: #fff;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+footer .icon-box{
+    color: white;
+} 
+
+.border-footer{
+    border: 2px solid #282828 !important;
+}
+
+footer .icon-box{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #71706d;
+}
+
+/* menu page */
+
+.r-menu{
+    height: 500px;
+    background-image: url(../images/menu.jpg);
+    background-size: cover;
+    background-position: left center;
+    z-index: 1;
+}
+
+.r-menu .overlay{
+
+    background-color: rgba(0, 0, 0, .8);
+}
+
+
+.menu-list{
+    border-bottom: 3px dotted #dfa622;
+}
+
+.special-dishess .special-img-1{
+    height: 400px;
+}
+
+.price-rs{
+    font-weight: 600;
+}
+
+.dishes-menu .img-to-rounded{
+    height: 350px;
+}

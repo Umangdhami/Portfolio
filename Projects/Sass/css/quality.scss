@@ -1,0 +1,32 @@
+.quality{
+    .row{
+        .quality-content{
+            h2{
+                font-size: 55px;
+                color: $font-co;
+            }
+            p{
+                color: $tag;
+                line-height: 1.8;
+            }
+            .btn{
+                button{
+                    padding: 15px 50px;
+                    font-size: 14px;
+                    background-color: $hover;
+                    color: $white;
+                    border: none;
+                    margin-top: 20px;
+                }
+            }
+            padding-top: 50px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+        }
+    }
+    padding: 50px 0;
+    position: relative;
+
+    
+}

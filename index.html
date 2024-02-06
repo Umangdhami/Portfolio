@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- Headline Css -->
+    <link rel="stylesheet" href="css/headline.css">
+
+    <!-- Font css -->
+    <link rel="stylesheet" href="css/font.css">
+
+    <!-- Icon css -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- IconFont css -->
+    <link rel="stylesheet" href="css/icofont.min.css">
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Media css -->
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+
+    <!-- Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+    <!-- Loader -->
+    <div class="loader-box">
+        <div class="load-10 po-rel">
+            <div class="loads-10"></div>
+            <div class="loads-10"></div>
+            <div class="loads-10"></div>
+            <div class="loads-10"></div>
+        </div>
+    </div>
+
+    <!-- Off Canvas Header-Navigation -->
+
+    <div class="offcanvas offcanvas-end" style="z-index: 99;" tabindex="-1" id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-white" id="offcanvasRightLabel">Menus</h5>
+            <button type="button"
+                class="text-white bg-transparent border-0 fs-3 d-flex align-items-center justify-content-center"
+                data-bs-dismiss="offcanvas" aria-label="Close">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <div class="offcanvas-body">
+            <nav class="w-auto">
+                <ul class="nav d-flex flex-column row-gap-2">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link header-link active fs-7">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link header-link fs-7">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link header-link fs-7">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link header-link fs-7">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link header-link fs-7">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Top Button -->
+    <div class="btn-top d-none">
+        <a href="#top"
+            class="frame tran-5 top-button d-flex justify-content-center align-items-center rounded-circle position-fixed">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+    </div>
+
+    <header class="main-header position-absolute top-0 start-0 py-4 px-3 w-100">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col col-md-5 p-0">
+                    <div class="logo">
+                        <span>Umang Dhami</span>
+                    </div>
+                </div>
+                <div class="w-auto d-flex justify-content-end align-items-center d-none d-lg-block">
+                    <nav class="w-auto">
+                        <ul class="nav d-flex">
+                            <li class="nav-item">
+                                <a href="#top" class="nav-link header-link active1 fs-7">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#about" class="nav-link header-link fs-7">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#services" class="nav-link header-link fs-7">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#portfolio" class="nav-link header-link fs-7">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contact" class="nav-link header-link fs-7">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-1 ham-burger d-lg-none p-0">
+                    <span class="text-white fs-3">
+                        <a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                            aria-controls="offcanvasRight" class="text-white">
+                            <i class="fa-solid fa-bars"></i>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="top" class="banner bg-info w-100 position-relative" style="height: calc(100vh + 65px);">
+            <div class="overlay position-absolute w-100 h-100 top-0 start-0"
+                style="background-color: rgba(0, 0, 0, 0.6);"></div>
+            <div class="container h-100">
+                <div class="row justify-content-center align-items-center h-100 z-55">
+                    <div class="title col-12 h-auto text-center">
+                        <h2 class="text-white heading-main">Welcome!</h2>
+                        <h1 style="overflow: hidden;" class="cd-headline push text-white mt-3 main-tag">
+                            <span>I am </span>
+                            <span class="cd-words-wrapper" style="color: #c49b66;">
+                                <b class="is-visible">Umang Dhami</b>
+                                <b>Back-End Developer</b>
+                            </span>
+                        </h1>
+
+                        <div class="col-12 d-flex justify-content-center pt-5">
+                            <div class="banner-icons col-6 col-md-5 col-lg-4 col-xl-3 d-flex justify-content-center rounded-pill"
+                                style="background-color: rgba(200, 200, 200, 0.10);">
+                                <ul class="nav">
+                                    <li class="nav-item">
+                                        <a target="_blank" href="https://www.facebook.com/umang.dhami.56" class="nav-link header-link">
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a target="_blank" href="https://twitter.com/Umang_dhami_26" class="nav-link header-link">
+                                            <i class="fa-brands fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a target="_blank" href="https://www.instagram.com/it_s_umang_/" class="nav-link header-link">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a target="_blank" href="https://www.linkedin.com/in/umang-dhami-07617b2a8" class="nav-link header-link">
+                                            <i class="fa-brands fa-linkedin-in"></i>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a target="_blank" href="https://github.com/Umangdhami?tab=repositories" class="nav-link header-link">
+                                            <i class="fa-brands fa-github"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="about" class="py-120 position-relative" style="background-color: #161617;">
+            <svg class="wave position-absolute top-0" version="1.1"
+                style="transform: rotate(180deg) translateY(100%); z-index: 11; fill: #161617;"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 1920 81.717" enable-background="new 0 0 1920 81.717" xml:space="preserve">
+                <path style=""
+                    d="M1920,0c0,0-109.246,46.107-316.333,67.334C1343.5,94,1137.095,77.238,999.167,67.5C854,57.25,637.662,24.697,541.709,18.834C375.334,8.666,147,11,0,37.875V0H1920L1920,0z">
+                </path>
+            </svg>
+            <div class="container">
+                <div class="row row-gap-5 justify-content-xxl-between">
+                    <div
+                        class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-start justify-content-xxl-center">
+                        <div class="my-img col-12 col-lg-10 col-xxl-9"
+                            style="overflow: hidden; height: 600px; object-position: center center;">
+                            <img src="images/hero.jpg" class="w-100" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6  d-flex flex-wrap align-items-center"
+                        style="font-family: var(--bs-font-rubik);">
+                        <div class="col-12">
+                            <span class="text-white"
+                                style="letter-spacing: 2px; font-weight: 300; font-size: 14px;">Hello I am</span>
+                            <h3 class="text-white my-3">Umang Dhami.</h3>
+                            <h5 class="text-white mt-4 pt-2">Professional Web Developer</h5>
+                            <div class="col-12 mt-3">
+                                <p class="text-danger" style="line-height: 1.8;">I am Umang Dhami, Proficient web
+                                    back-end developer with expertise in server-side programming languages such as
+                                    Node.js.</p>
+
+                                <p class="text-danger" style="line-height: 1.8;">Skilled in creating robust, scalable
+                                    architectures, crafting efficient database structures, and developing secure APIs.
+                                    Strong problem-solving skills, dedicated to staying updated with emerging
+                                    technologies and industry best practices. </p>
+                            </div>
+
+                            <div class="col-12 d-flex column-gap-3 mt-4 pt-2 flex-wrap row-gap-4">
+                                <button class="btn border rounded-pill py-2 btn-hover tran-5 px-4 text-white fs-7">
+                                    <a href="./cv/Resume_Umang_Dhami.pdf" class="text-white">Download CV</a>
+                                </button>
+                                <button class="btn border rounded-pill py-2 btn-hover tran-5 px-4 text-white fs-7">
+                                    Hire Me!
+                                </button>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section id="services" class="services title pb-120 bg-dark">
+            <svg class="wave" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 81.717"
+                enable-background="new 0 0 1920 81.717" xml:space="preserve">
+                <path style="fill: #161617;"
+                    d="M1920,0c0,0-109.246,46.107-316.333,67.334C1343.5,94,1137.095,77.238,999.167,67.5C854,57.25,637.662,24.697,541.709,18.834C375.334,8.666,147,11,0,37.875V0H1920L1920,0z">
+                </path>
+            </svg>
+            <div class="container">
+                <div class="row mt-4">
+                    <h4 class="se-title tran-5 text-center fw-bold display-2"
+                        style="font-family: var(--bs-font-rubik);">Services</h4>
+                </div>
+                <div class="row mt-5 pt-3 row-gap-4">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 px-3">
+                        <div class="col-12 py-5 px-3" style="background-color: #0a0a0c;">
+                            <div class="col-12">
+                                <div class="col-12 d-flex justify-content-center fs-1">
+                                    <div class="frame" style="--frame-size: 90px;">
+                                        <div class="col-12 w-100 h-100 position-relative tran-5 trans-box">
+                                            <div class="col-12 h-100">
+                                                <a href="#">
+                                                    <div class="box-icon"></div>
+                                                    <i class="icofont-web"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mt-4 pt-3 text-center">
+                                    <h4 class="text-white">Web Design</h4>
+                                    <p class="mt-3 text-danger" style="line-height: 1.8;">Web design is a multifaceted
+                                        field that encompasses the visual and functional aspects of creating websites.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 px-3">
+                        <div class="col-12 py-5 px-3" style="background-color: #0a0a0c;">
+                            <div class="col-12">
+                                <div class="col-12 d-flex justify-content-center fs-1">
+                                    <div class="frame" style="--frame-size: 90px;">
+                                        <div class="col-12 w-100 h-100 position-relative tran-5 trans-box">
+                                            <div class="col-12 h-100">
+                                                <a href="#">
+                                                    <div class="box-icon"></div>
+                                                    <i class="fa-solid fa-palette"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mt-4 pt-3 text-center">
+                                    <h4 class="text-white">Fornt-End Coding</h4>
+                                    <p class="mt-3 text-danger" style="line-height: 1.8;">Front-end coding involves
+                                        creating the visual and interactive elements of a website that users directly
+                                        engage with.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 px-3">
+                        <div class="col-12 py-5 px-3" style="background-color: #0a0a0c;">
+                            <div class="col-12">
+                                <div class="col-12 d-flex justify-content-center fs-1">
+                                    <div class="frame" style="--frame-size: 90px;">
+                                        <div class="col-12 w-100 h-100 position-relative tran-5 trans-box">
+                                            <div class="col-12 h-100">
+                                                <a href="#">
+                                                    <div class="box-icon"></div>
+                                                    <i class="icon icofont icofont-ui-fire-wall"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mt-4 pt-3 text-center">
+                                    <h4 class="text-white">Web Developement</h4>
+                                    <p class="mt-3 text-danger" style="line-height: 1.8;">Web development is a
+                                        multifaceted process encompassing both front-end and back-end aspects to create
+                                        Web Application</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 px-3">
+                        <div class="col-12 py-5 px-3" style="background-color: #0a0a0c;">
+                            <div class="col-12">
+                                <div class="col-12 d-flex justify-content-center fs-1">
+                                    <div class="frame" style="--frame-size: 90px;">
+                                        <div class="col-12 w-100 h-100 position-relative tran-5 trans-box">
+                                            <div class="col-12 h-100">
+                                                <a href="#">
+                                                    <div class="box-icon"></div>
+                                                    <i class="fa-solid fa-server"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mt-4 pt-3 text-center">
+                                    <h4 class="text-white">Web Hosting</h4>
+                                    <p class="mt-3 text-danger" style="line-height: 1.8;">Web hosting is a service that
+                                        allows individuals and organizations to make their websites accessible on the
+                                        internet.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="portfolio" class="portfolio title pb-120" style="background-color: #161617;">
+            <svg class="wave dark" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 81.717"
+                enable-background="new 0 0 1920 81.717" xml:space="preserve">
+                <path style="fill: #0f0f0f;"
+                    d="M1920,0c0,0-109.246,46.107-316.333,67.334C1343.5,94,1137.095,77.238,999.167,67.5C854,57.25,637.662,24.697,541.709,18.834C375.334,8.666,147,11,0,37.875V0H1920L1920,0z">
+                </path>
+            </svg>
+
+            <div class="container">
+                <div class="row mt-4">
+                    <h4 class="se-title tran-5 text-center fw-bold display-2"
+                        style="font-family: var(--bs-font-rubik);">Portfolio</h4>
+                </div>
+                <div class="row my-5 row-gap-5 justify-content-center">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="col-12 d-flex justify-content-center">
+                            <div class="portfolio-card col-11 position-relative overflow-hidden">
+                                <div class="overlay"></div>
+                                <img src="images/ad2.png" class="w-100 portfolio-card-img tran-5"
+                                    style="filter: blur(2px);" alt="">
+                                <div
+                                    class="bg-text tran-5 d-flex flex-column justify-content-end col-12 position-absolute start-0 p-4 h-100">
+                                    <div class="col-12 p-1">
+                                        <span class="text-date">
+                                            <span style="color: #c49b66;">Bootstrap</span>
+                                            <span style="color: rgb(196, 155, 102);"> &nbsp;/&nbsp;</span>
+                                            <span style="color: #c49b66;">March 21 - 2023</span>
+                                        </span>
+
+                                        <h4 class="text-white mt-2 mb-3 h3 text-portfolio">Viserlife Zoo Web Application
+                                        </h4>
+                                        <div class="col-12 pt-2">
+                                            <a href="./Projects/Viserlife/index.html"
+                                                class="portfolio-btn d-block pb-3 tran-5 position-relative"
+                                                style="font-family: var(--bs-font-rubik);">Open Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="col-12 d-flex justify-content-center">
+                            <div class="portfolio-card col-11 position-relative overflow-hidden">
+                                <div class="overlay"></div>
+                                <img src="images/ad1.png" class="w-100 portfolio-card-img tran-5"
+                                    style="filter: blur(2px);" alt="">
+                                <div
+                                    class="bg-text tran-5 d-flex flex-column justify-content-end col-12 position-absolute start-0 p-4 h-100">
+                                    <div class="col-12 p-1">
+                                        <span class="text-date">
+                                            <span style="color: #c49b66;">HTML - CSS</span>
+                                            <span style="color: rgb(196, 155, 102);"> &nbsp;/&nbsp;</span>
+                                            <span style="color: #c49b66;">April 9 - 2023</span>
+                                        </span>
+                                        <h4 class="text-white mt-2 mb-3 h3 text-portfolio">Main Admin Page Of Web
+                                            Application</h4>
+                                        <div class="col-12 pt-2">
+                                            <a href="./Projects/Admin_Panel/index.html"
+                                                class="portfolio-btn d-block pb-3 tran-5 position-relative"
+                                                style="font-family: var(--bs-font-rubik);">Open Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="col-12 d-flex justify-content-center">
+                            <div class="portfolio-card col-11 position-relative overflow-hidden">
+                                <div class="overlay"></div>
+                                <img src="images/ad3.png" class="w-100 portfolio-card-img tran-5"
+                                    style="filter: blur(2px);" alt="">
+                                <div
+                                    class="bg-text tran-5 d-flex flex-column justify-content-end col-12 position-absolute start-0 p-4 h-100">
+                                    <div class="col-12 p-1">
+                                        <span class="text-date">
+                                            <span style="color: #c49b66;">Bootstrap</span>
+                                            <span style="color: rgb(196, 155, 102);"> &nbsp;/&nbsp;</span>
+                                            <span style="color: #c49b66;">April 22 - 2023</span>
+                                        </span>
+                                        <h4 class="text-white mt-2 mb-3 h3 text-portfolio">Restorent Web Application
+                                        </h4>
+                                        <div class="col-12 pt-2">
+                                            <a href="./Projects/Restorent/index.html"
+                                                class="portfolio-btn d-block pb-3 tran-5 position-relative"
+                                                style="font-family: var(--bs-font-rubik);">Open Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="col-12 d-flex justify-content-center">
+                            <div class="portfolio-card col-11 position-relative overflow-hidden">
+                                <div class="overlay"></div>
+                                <img src="images/ad4.png" class="w-100 portfolio-card-img tran-5"
+                                    style="filter: blur(2px);" alt="">
+                                <div
+                                    class="bg-text tran-5 d-flex flex-column justify-content-end col-12 position-absolute start-0 p-4 h-100">
+                                    <div class="col-12 p-1">
+                                        <span class="text-date">
+                                            <span style="color: #c49b66;">HTML - CSS</span>
+                                            <span style="color: rgb(196, 155, 102);"> &nbsp;/&nbsp;</span>
+                                            <span style="color: #c49b66;">November 10 - 2023</span>
+                                        </span>
+                                        <h4 class="text-white mt-2 mb-3 h3 text-portfolio">Ship Tranport Web Application
+                                        </h4>
+                                        <div class="col-12 pt-2">
+                                            <a href="./Projects/Ship/index.html"
+                                                class="portfolio-btn d-block pb-3 tran-5 position-relative"
+                                                style="font-family: var(--bs-font-rubik);">Open Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="col-12 d-flex justify-content-center">
+                            <div class="portfolio-card col-11 position-relative overflow-hidden">
+                                <div class="overlay"></div>
+                                <img src="images/ad5.png" class="w-100 portfolio-card-img tran-5"
+                                    style="filter: blur(2px);" alt="">
+                                <div
+                                    class="bg-text tran-5 d-flex flex-column justify-content-end col-12 position-absolute start-0 p-4 h-100">
+                                    <div class="col-12 p-1">
+                                        <span class="text-date">
+                                            <span style="color: #c49b66;">HTML - CSS</span>
+                                            <span style="color: rgb(196, 155, 102);"> &nbsp;/&nbsp;</span>
+                                            <span style="color: #c49b66;">November 23 - 2023</span>
+                                        </span>
+                                        <h4 class="text-white mt-2 mb-3 h3 text-portfolio">Neture Plant Web Application
+                                        </h4>
+                                        <div class="col-12 pt-2">
+                                            <a href="./Projects/Plant/index.html"
+                                                class="portfolio-btn d-block pb-3 tran-5 position-relative"
+                                                style="font-family: var(--bs-font-rubik);">Open Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="col-12 d-flex justify-content-center">
+                            <div class="portfolio-card col-11 position-relative overflow-hidden">
+                                <div class="overlay"></div>
+                                <img src="images/ad6.png" class="w-100 portfolio-card-img tran-5"
+                                    style="filter: blur(2px);" alt="">
+                                <div
+                                    class="bg-text tran-5 d-flex flex-column justify-content-end col-12 position-absolute start-0 p-4 h-100">
+                                    <div class="col-12 p-1">
+                                        <span class="text-date">
+                                            <span style="color: #c49b66;">Bootstrap</span>
+                                            <span style="color: rgb(196, 155, 102);"> &nbsp;/&nbsp;</span>
+                                            <span style="color: #c49b66;">December 13 - 2023</span>
+                                        </span>
+                                        <h4 class="text-white mt-2 mb-3 h3 text-portfolio">Beauti Product's Web
+                                            Application</h4>
+                                        <div class="col-12 pt-2">
+                                            <a href="./Projects/Beauti_Products/index.html"
+                                                class="portfolio-btn d-block pb-3 tran-5 position-relative"
+                                                style="font-family: var(--bs-font-rubik);">Open Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="col-12 d-flex justify-content-center">
+                            <div class="portfolio-card col-11 position-relative overflow-hidden">
+                                <div class="overlay"></div>
+                                <img src="images/ad7.png" class="w-100 portfolio-card-img tran-5"
+                                    style="filter: blur(2px);" alt="">
+                                <div
+                                    class="bg-text tran-5 d-flex flex-column justify-content-end col-12 position-absolute start-0 p-4 h-100">
+                                    <div class="col-12 p-1">
+                                        <span class="text-date">
+                                            <span style="color: #c49b66;">Sass</span>
+                                            <span style="color: rgb(196, 155, 102);"> &nbsp;/&nbsp;</span>
+                                            <span style="color: #c49b66;">December 25 - 2023</span>
+                                        </span>
+                                        <h4 class="text-white mt-2 mb-3 h3 text-portfolio">Agricultural Product's Web
+                                            Application</h4>
+                                        <div class="col-12 pt-2">
+                                            <a href="./Projects/Sass/index.html"
+                                                class="portfolio-btn d-block pb-3 tran-5 position-relative"
+                                                style="font-family: var(--bs-font-rubik);">Open Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="title pb-120" style="background-color: #0F0F0F;">
+            <svg class="wave dark" style="fill: #161617;" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 81.717"
+                enable-background="new 0 0 1920 81.717" xml:space="preserve">
+                <path
+                    d="M1920,0c0,0-109.246,46.107-316.333,67.334C1343.5,94,1137.095,77.238,999.167,67.5C854,57.25,637.662,24.697,541.709,18.834C375.334,8.666,147,11,0,37.875V0H1920L1920,0z">
+                </path>
+            </svg>
+            <div class="container">
+                <div class="row mt-4">
+                    <h4 class="se-title tran-5 text-center fw-bold display-2"
+                        style="font-family: var(--bs-font-rubik);">Contact Us</h4>
+                </div>
+                <div class="row mt-5 pt-3 justify-content-center">
+                    <div class="col-12 col-xl-10 d-flex flex-wrap row-gap-5 justify-content-between">
+                        <div class="col-12 px-xl-5 pt-xl-4 pt-xxl-0 col-lg-5 d-flex align-items-center align-items-xl-start align-items-xxl-center"
+                            style="background-image: url(images/map.png); background-size: cover;">
+                            <ul class="d-flex flex-column row-gap-4 col-6 list-unstyled">
+                                <li class="d-flex flex-column row-gap-1">
+                                    <span style="color: #c49b66;" class="fs-7">PHONE :</span>
+                                    <span style="color: #8f8f8f;">+91 92657 39309</span>
+                                </li>
+                                <li class="d-flex flex-column row-gap-1 mt-1">
+                                    <span style="color: #c49b66;" class="fs-7">ADDRESS :</span>
+                                    <span style="color: #8f8f8f;">A. K. Raod, Suryanagar Soc. 62/63, 395008</span>
+                                </li>
+                                <li class="d-flex flex-column row-gap-1 mt-1">
+                                    <span style="color: #c49b66;" class="fs-7">EMAIL :</span>
+                                    <a href="#" style="color: #8f8f8f;">dhamiumang19@gmail.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <form class="row g-3 list-last">
+                                <div class="col-12 col-md-6 pe-md-3">
+                                    <input type="email" class="form-control rounded-pill border-0 p-2" id="inputEmail4"
+                                        placeholder="Name" style="background-color: #222;">
+                                </div>
+                                <div class="col-12 col-md-6 ps-md-3">
+                                    <input type="password" class="form-control rounded-pill border-0 p-2"
+                                        id="inputPassword4" placeholder="Email" style="background-color: #222;">
+                                </div>
+                                <div class="col-12">
+                                    <input type="text" class="form-control border-0 rounded-pill p-2" id="inputAddress"
+                                        placeholder="Subject" style="background-color: #222;">
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="w-100 rounded border-0 p-3" rows="4" placeholder="Message"
+                                        style="background-color: #222;"></textarea>
+                                </div>
+
+                                <div class="col-12 d-flex justify-content-end">
+                                    <button type="submit" class="btn btn-contact rounded-pill px-4 tran-5">Send
+                                        Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="title pb-120" style="background-color: #161617;">
+        <svg class="wave dark" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 81.717"
+            enable-background="new 0 0 1920 81.717" xml:space="preserve">
+            <path style="fill: #0f0f0f;"
+                d="M1920,0c0,0-109.246,46.107-316.333,67.334C1343.5,94,1137.095,77.238,999.167,67.5C854,57.25,637.662,24.697,541.709,18.834C375.334,8.666,147,11,0,37.875V0H1920L1920,0z">
+            </path>
+        </svg>
+        <div class="container">
+            <div class="row mt-4 justify-content-center">
+                <div class="col-3 col-md-2 text-center logo logo-footer">
+                    <span>Umang Dhami</span>
+                </div>
+            </div>
+            <div class="row mt-3 pt-3 justify-content-center">
+                <ul class="list-unstyled d-flex column-gap-4 w-auto">
+                    <li>
+                        <a target="_blank" href="https://www.facebook.com/umang.dhami.56" class="footer-icons position-relative d-block text-center">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://twitter.com/Umang_dhami_26" class="footer-icons position-relative d-block text-center">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.instagram.com/it_s_umang_/" class="footer-icons position-relative d-block text-center">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/umang-dhami-07617b2a8" class="footer-icons position-relative d-block text-center">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://github.com/Umangdhami?tab=repositories" class="footer-icons position-relative d-block text-center">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+                <span class="text-center fw-light pt-1" style="color: #999; font-size: 12px; letter-spacing: 2px;">©
+                    2018 UI-THEMEZ. ALL RIGHTS RESERVED.</span>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/pointer.js"></script>
+    <script>
+
+        $(window).on("scroll", function () {
+            if ($(window).scrollTop() > 300) {
+                $(".main-header").addClass("fixed");
+            }
+            else {
+                $(".main-header").removeClass("fixed");
+            }
+
+            if ($(window).scrollTop() > 600) {
+                $(".btn-top").removeClass("d-none");
+            }
+            else {
+                $(".btn-top").addClass("d-none");
+            }
+        });
+    </script>
+    <script>
+
+        $(window).on("load", function () {
+            $(".loader-box").delay(1000).fadeOut(2000);
+        });
+
+        const sections = document.querySelectorAll("section[id]");
+        window.addEventListener("scroll", navHighlighter);
+
+        function navHighlighter() {
+
+            let scrollY = window.pageYOffset;
+
+            sections.forEach(current => {
+                const sectionHeight = current.offsetHeight;
+                const sectionTop = current.offsetTop - 50;
+                sectionId = current.getAttribute("id");
+
+                if (
+                    scrollY > sectionTop &&
+                    scrollY <= sectionTop + sectionHeight
+                ) {
+                    document.querySelector(".nav a[href*=" + sectionId + "]").classList.add("active1");
+                } else {
+                    document.querySelector(".nav a[href*=" + sectionId + "]").classList.remove("active1");
+                }
+            });
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+.vegetables{
+    .row{
+        .vegetable_box{
+            .vegetable-img{
+                width: 75%;
+            }
+
+            h4{
+                font-size: 24px;
+            }
+            p{
+                text-align: center;
+                color: $tag;
+            }
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    padding: 100px 0;
+}
