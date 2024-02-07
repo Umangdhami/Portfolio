@@ -105,8 +105,9 @@ header {
     --bs-link-hover-color: #c49b66;
     background-image: url(../images/wa-removebg.png);
     background-position: top center;
-    /* background-size: cover; */
+    background-size: cover;
     /* background-attachment: local; */
+    background-repeat: no-repeat;
     z-index: 1;
 }
 
