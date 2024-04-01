@@ -85,8 +85,8 @@
 @media (max-width: 300px) {
     
     .main-header.fixed{
-    padding-top: 20px !important;
-    padding-bottom: 20px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
    }
    .logo span {
     font-size: 16px;
